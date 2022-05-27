@@ -1,4 +1,4 @@
-baseURL="https://kiw-staging.herokuapp.com"
+baseURL="https://kiw-api.mulearn.org"
 
 qid=""
 axios.get(`${baseURL}/question`).then(res=>{

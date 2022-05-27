@@ -35,3 +35,19 @@ img{
 #result{
     text-align: center;
 }
+
+.status{
+    max-height: 40px;
+    margin-top: 1rem;;
+    padding: .2rem;
+    
+}
+
+.container{
+    padding: 2rem;
+}
+
+.card{
+    text-align: center;
+
+}
