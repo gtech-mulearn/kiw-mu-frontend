@@ -1,0 +1,37 @@
+body{
+    margin: 1rem;
+}
+button{
+    margin: .5rem;
+}
+img{
+    max-width: 95%;
+}
+
+.fixedbottom {
+    position: fixed;
+    bottom: -4px;
+    right: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+    /*   margin-right: 10px; */
+    margin-left: 20px !important;
+    width: 4rem;
+}
+
+.initial{
+    text-align: center;
+    padding: 1 rem;
+}
+
+#code{
+    color: blue;
+}
+
+#q-img{
+    max-height: 30vh;
+}
+
+#result{
+    text-align: center;
+}
