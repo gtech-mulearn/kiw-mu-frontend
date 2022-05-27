@@ -1,4 +1,4 @@
-baseURL="https://kiw-staging.herokuapp.com/"
+baseURL="https://kiw-staging.herokuapp.com"
 
 const queryString = window.location.search;
 console.log(queryString);

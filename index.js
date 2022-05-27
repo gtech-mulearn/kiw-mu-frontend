@@ -1,4 +1,4 @@
-baseURL="https://kiw-staging.herokuapp.com/"
+baseURL="https://kiw-staging.herokuapp.com"
 
 qid=""
 axios.get(`${baseURL}/question`).then(res=>{
