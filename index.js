@@ -27,9 +27,3 @@ function submit(){
         document.getElementById("result").innerHTML=`<h4>Some Error Occured</h4>${err.response.data}`
     })
 }
-
-// function clearData(){
-//     console.log("trigger")
-//     document.getElementById("urlbox").value=""
-//     document.getElementById("content").innerHTML=""
-// }

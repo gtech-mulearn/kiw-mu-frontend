@@ -51,3 +51,8 @@ img{
     text-align: center;
 
 }
+
+#qr{
+    max-width: 200px;
+    padding: .5rem;
+}
