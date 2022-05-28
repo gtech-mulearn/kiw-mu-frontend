@@ -64,5 +64,9 @@ img{
     display: block;
   margin-left: auto;
   margin-right: auto;
-  
+
+}
+
+.extraq{
+    padding: 1rem;
 }

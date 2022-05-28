@@ -17,7 +17,14 @@ function submit(){
         "name":document.getElementById("name").value,
         "email":document.getElementById("email").value,
         "answer":document.getElementById("answer").value.toLowerCase().trim(),
-        "qid":qid
+        "qid":qid,
+        "shirt_size":document.getElementById("tshirt-size").value,
+        "int-intern":document.getElementById("int-intern").checked,
+        "int-job":document.getElementById("int-job").checked,
+        "int-entrep":document.getElementById("int-entrep").checked,
+        "int-network":document.getElementById("int-network").checked,
+        "int-skill":document.getElementById("int-skill").checked,
+        
       }).then(res=>{
         console.log(res.data)
         document.getElementById("result").innerHTML=res.data.message
