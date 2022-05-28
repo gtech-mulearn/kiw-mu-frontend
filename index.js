@@ -16,12 +16,12 @@ function submit(){
     axios.post(`${baseURL}/new`,{
         "name":document.getElementById("name").value,
         "email":document.getElementById("email").value,
-        "answer":document.getElementById("answer").value.toLowerCase(),
+        "answer":document.getElementById("answer").value.toLowerCase().trim(),
         "qid":qid
       }).then(res=>{
         console.log(res.data)
         document.getElementById("result").innerHTML=res.data.message
-        alert(res.data.message)
+        alert(`${res.data.message}`)
         
         if(res.data["id"]!=undefined){
             window.location=`https://kiw.mulearn.org/user?id=${res.data.id}`
