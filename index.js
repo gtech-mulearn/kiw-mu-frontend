@@ -1,6 +1,6 @@
-baseURL="https://kiw-api.mulearn.org"
+let baseURL="https://kiw-api.mulearn.org"
 
-qid=""
+let qid=""
 axios.get(`${baseURL}/question`).then(res=>{
     console.log(res.data)
     document.getElementById("q-title").innerHTML=res.data.title;
