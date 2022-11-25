@@ -25,7 +25,7 @@ let greyTick="https://cdn.discordapp.com/attachments/931180902120312853/97979100
             console.log(res.data)
             document.getElementById("name").innerText=res.data.name  
             document.getElementById("code").innerText=res.data.code
-            document.getElementById("qr").setAttribute("src",`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://kiw.mulearn.org/user?id=${id}`)
+            document.getElementById("qr").setAttribute("src",`https://api.qrserver.com/v1/create-qr-code/?size=300x300&data=https://experience.mulearn.org/user?id=${id}`)
             // document.getElementById("result").innerHTML=res.data.message
     
             stations.forEach((station)=>{
