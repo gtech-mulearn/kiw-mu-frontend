@@ -31,7 +31,7 @@ function submit(){
         alert(`${res.data.message}`)
         
         if(res.data["id"]!=undefined){
-            window.location=`https://kiw.mulearn.org/user?id=${res.data.id}`
+            window.location=`user?id=${res.data.id}`
         }
         
     })
