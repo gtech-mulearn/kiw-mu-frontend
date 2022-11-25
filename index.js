@@ -13,12 +13,13 @@ axios.get(`${baseURL}/question`).then(res=>{
 function submit(){
     document.getElementById("result").innerHTML=""
     // let url=document.getElementById("urlbox").value
+    // "shirt_size":document.getElementById("tshirt-size").value,
     axios.post(`${baseURL}/new`,{
         "name":document.getElementById("name").value,
         "email":document.getElementById("email").value,
         "answer":document.getElementById("answer").value.toLowerCase().trim(),
         "qid":qid,
-        "shirt_size":document.getElementById("tshirt-size").value,
+        "shirt_size":"-",
         "int-intern":document.getElementById("int-intern").checked,
         "int-job":document.getElementById("int-job").checked,
         "int-entrep":document.getElementById("int-entrep").checked,
