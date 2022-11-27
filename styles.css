@@ -8,6 +8,15 @@ img{
     max-width: 95%;
 }
 
+.banner-container{
+    background-color: #5954A3;
+    margin-bottom: 2rem;
+}
+
+.banner-container img{
+    width: 30rem;
+}
+
 .fixedbottom {
     position: fixed;
     bottom: -4px;
